@@ -1,0 +1,17 @@
+      table#turtleList {border: solid thin #34223e;
+        border-collapse: collapse;
+        color: #4a5a6c;
+        background-color: #ead4e9;}
+      table#turtleList td {border: solid thin #34223e;
+        padding: 5px;
+		text-align: center;}
+      table#turtleList thead td{padding: 5px;
+        background-color: #52405c;
+      	color: #a2b8cf;
+		text-align:center;}
+      table#turtleList tbody tr:nth-child(odd) {background-color: #a2b8cf;}
+      table#turtleList tbody tr:hover {background-color: #4a5a6c;
+      	color: #a2b8cf;}
+      table#turtleList tbody td:hover {background-color: #7b4d79;
+      	color: #a2b8cf;}
+      table#turtleList tr a {text-decoration: none;}

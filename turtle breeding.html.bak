@@ -2,12 +2,23 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		
     <title></title>
+    <link  href="turtles.css"  rel="stylesheet">
   </head>
   <body>
-    <table id="turtleList">       </table>
-      <br>
+		<form>     
+    	<select name="female" id="femaleList"></select>
+    	<select name="male" id="maleList"></select>
+      <button onclick="breed()">Breed</button>
+    </form>
+    <br>
+    <p id="test">
+    </p>
+    <br>
+    <div onload="populateTable()">
+    <table id="turtleList">
+      </table></div>
+    <br>
     <script src="turtles.js"></script>
   </body>
 </html>
